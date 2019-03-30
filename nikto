@@ -1,6 +1,7 @@
 # alex <alexbujduveanu>
 # Contributor: Jose Moruno Cadima <www.sniferl4bs.com>
 
+=======
 # To scan a particular host
 nikto.pl -host [host IP/name]
 
@@ -23,3 +24,5 @@ D Debug output
 E Display all HTTP errors
 
 
+=======
+perl nikto.pl -host [host IP/name] -useproxy [proxy address]
